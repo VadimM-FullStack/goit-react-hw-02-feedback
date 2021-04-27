@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-class Section extends React.Component {
+class Section extends Component {
   render() {
     const { title, children } = this.props;
     return (
